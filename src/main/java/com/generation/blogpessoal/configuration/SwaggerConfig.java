@@ -19,19 +19,19 @@ public class SwaggerConfig {
     OpenAPI springBlogPessoalOpenAPI() {
         return new OpenAPI()
             .info(new Info()
-                .title("Projeto Blog Pessoal")
-                .description("Projeto Blog Pessoal - Generation Brasil")
+                .title("Projeto Blog Pessoal - Marina")
+                .description("Projeto Blog Pessoal - Marina")
                 .version("v0.0.1")
                 .license(new License()
-                    .name("Generation Brasil")
+                    .name("Marina")
                     .url("https://brazil.generation.org/"))
                 .contact(new Contact()
-                    .name("Generation Brasil")
-                    .url("https://github.com/conteudoGeneration")
-                    .email("conteudogeneration@generation.org")))
+                    .name("Marina Mmap")
+                    .url("https://https://github.com/marina-mmap")
+                    .email("marinapereira.mmap@gmail.com")))
             .externalDocs(new ExternalDocumentation()
                 .description("Github")
-                .url("https://github.com/conteudoGeneration/"));
+                .url("https://https://github.com/marina-mmap"));
     }
 
 
